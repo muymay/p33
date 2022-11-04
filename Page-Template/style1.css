@@ -145,5 +145,61 @@ h1 {
     width: 60%;
     padding: 30px;
     position: absolute;
-    transform: translate (-50%,-50%)
+    transform: translate(-50%,-50%);
+    left: 50%;
+    top: 50%;
+    border-radius: 10px;
+    min-width: 600px;
+}
+
+.slide-image {
+    position:relative;
+    width: 100%;
+    border: 1px solide black;
+}
+img {
+    width:100%;
+    position: relative;
+    display: none;
+}
+.active {
+    display: block;
+}
+.sequence{
+    width: 150px;
+    margin: 20px auto 0 auto; 
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+button {
+    outline: none;
+    cursor: pointer;
+}
+.sequence button{
+    height: 14px;
+    width: 14px;
+    border-radius: 60%;
+    border: 3px solid #83e083;
+    background-color: transparent;
+}
+#previous, #next {
+    height: 40px;
+    width: 40px;
+    position: absolute;
+    background-color:#83e083;
+    color: #ffffff;
+    margin: auto;
+    top: 0;
+    bottom: 0;
+    font-size: 20px;
+    font-weight: bold; 
+    border:none;
+    border-radius: 5px;
+}
+#previous {
+    left: 20px;
+}
+#next {
+    right: 20px;
 }
