@@ -102,13 +102,10 @@ body {
     height: 100px;
     background-color: #fff;
 }
-.navBar ul{
 
-}
 .navBar ul li{
     list-style: none;
     display: inline-block;
-    float: left;
     line-height: 100px;
 }
 .navBar ul li a{
