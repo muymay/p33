@@ -120,6 +120,11 @@ body {
     color: #1e1e1e;
     padding: 0 25px;
 }
+
+.eff a:hover {
+    background-color: #83e083;
+  }
+
 h1 {
     text-align: center;
     font-family: "Times New Roman", Times, serif;
@@ -140,6 +145,12 @@ h1 {
     font-size: 18px;
 }
 
+
+.vehicles{
+    margin: 5px 20px 5px 20px;
+    display: flex;
+  }
+  
 #first {
     text-align:center;
     width:800px; 
