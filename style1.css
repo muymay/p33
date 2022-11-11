@@ -120,6 +120,11 @@ body {
     color: #1e1e1e;
     padding: 0 25px;
 }
+
+.eff a:hover {
+    background-color: #83e083;
+  }
+
 h1 {
     text-align: center;
     font-family: "Times New Roman", Times, serif;
