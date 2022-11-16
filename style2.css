@@ -146,38 +146,79 @@ h1 {
 }
 
 
+.head {
+    width: 100%;
+    height: 50px;
+    background-color:#83e083;
+    margin: 50px 0px 100px;
+}
+.head h1{
+    font-size: 75px;
+    font-weight: 20px;
+    
+}
+
 .vehicles{
-    margin: 5px 20px 5px 20px;
+    margin: 50px 0px;
     display: flex;
+    gap: 10px 30px;
+    flex-flow: wrap;
+    justify-content: space-around;
   }
-  
-#first {
-    text-align:center;
-    width:800px; 
-    height:80px; 
-    background: white; 
-}
 
-#first #second {
-    width: 100%;
-    height: 100%;
-    background: white; 
-}
+  .breaker{
+    height: 100px;
+    background-color: #83e083;
+  }
 
-#third {
-    width: 100%;
-    height: 100%;
-    background: white;
-}
+  .vehicles :hover {
+    background-color: #83e083;
+  }
 
-#fourth {
-    width: 100%;
-    height: 100%;
-    background: white;
-}
+  .vehicles h2{
+    font-size: 30px;
+    margin: 50px 50px 10px ;
+  }
 
-#fifth {
-    width: 100%;
-    height: 100%;
-    background: white; 
-}
+  .vehicles p{
+    font-size: 25px;
+    margin: 10px 70px 30px;
+  }
+  .wli{
+    background-color: #fff;
+  }
+  .wli p {
+    margin-right: 100px;
+  }
+
+
+  .ti {
+    text-align: right;
+    background-color: #fff;
+  }
+  .ti h2{
+    margin-right: 90px;
+  }
+  .ti p {
+    margin-left: 150px;
+  }
+
+
+  .inv{
+    background-color: #fff;
+  }
+  .inv p {
+    margin-right: 150px;
+  }
+
+
+  .lfi {
+    text-align: right;
+    background-color: #fff;
+  }
+  .lfi h2{
+    margin-right: 90px;
+  }
+  .lfi p {
+    margin-left: 150px;
+  }
