@@ -147,6 +147,7 @@ h1 {
 /* ML */
 .slide-container {
     background-color: #e3e3e3;
+    margin: 500px 0px;
     width: 60%;
     padding: 30px;
     position: absolute;
