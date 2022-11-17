@@ -99,31 +99,31 @@ body {
 }
 
 .eff{
-    width: 100%;
-    height: 100px;
-    background-color: #fff;
+  width: 100%;
+  height: 100px;
+  background-color: #fff;
 }
 .eff ul{
 
 }
 .eff ul li{
-    list-style: none;
-    display: inline-block;
-    float: left;
-    line-height: 100px;
+  list-style: none;
+  display: inline-block;
+  float: left;
+  line-height: 100px;
 }
 .eff ul li a{
-    display: block;
-    text-decoration: none;
-    font-size: 18px;
-    font-family: 'Courier New', Courier, monospace;
-    color: #1e1e1e;
-    padding: 0 25px;
+  display: block;
+  text-decoration: none;
+  font-size: 18px;
+  font-family: 'Courier New', Courier, monospace;
+  color: #1e1e1e;
+  padding: 0 25px;
 }
 
 .eff a:hover {
-    background-color: #83e083;
-  }
+  background-color: #83e083;
+}
 
 h1 {
     text-align: center;
