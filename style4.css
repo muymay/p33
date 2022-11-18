@@ -151,3 +151,8 @@ h1 {
     width: 76px;
     float: left;
  }
+
+    p {
+        text-indent: 5em;
+        font-size: 18px;
+      }
