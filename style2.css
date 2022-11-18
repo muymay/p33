@@ -145,6 +145,14 @@ h1 {
     font-size: 18px;
 }
 
+/* LOGO */
+.logo-image img{
+  margin-top: 15px;
+  margin-left: 10px;
+  width: 76px;
+  float: left;
+}
+
 
 .head {
     width: 100%;

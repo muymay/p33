@@ -25,12 +25,12 @@ time, mark, audio, video {
     font-size:100%;
     vertical-align:baseline;
     background:transparent;
-    font-family: 'Quicksand', sans-serif;
+    font-family: "Times New Roman", Times, serif;;
 }
 
 body {
     line-height:1;
-    font-family: 'Quicksand', sans-serif;
+    font-family: "Times New Roman", Times, serif;;
 }
 article,aside,details,figcaption,figure,
 footer,header,hgroup,menu,nav,section {
@@ -213,3 +213,11 @@ button {
 .sequence button:nth-child {
   background-color:#83e083
 }
+
+/* LOGO */
+.logo-image img{
+    margin-top: 15px;
+    margin-left: 10px;
+    width: 76px;
+    float: left;
+ }

@@ -144,3 +144,10 @@ h1 {
     border-radius: 10px; 
     font-size: 18px;
 }
+/* LOGO */
+.logo-image img{
+    margin-top: 15px;
+    margin-left: 10px;
+    width: 76px;
+    float: left;
+ }
