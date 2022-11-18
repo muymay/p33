@@ -25,11 +25,12 @@ time, mark, audio, video {
     font-size:100%;
     vertical-align:baseline;
     background:transparent;
+    font-family: 'Quicksand', sans-serif;
 }
 
 body {
     line-height:1;
-    font-family: "palatino linotype", serif;
+    font-family: 'Quicksand', sans-serif;
 }
 article,aside,details,figcaption,figure,
 footer,header,hgroup,menu,nav,section {
@@ -94,24 +95,24 @@ input, select {
 /*////////////////////////////////////////////////////////////////////////////////////////////////////*/
 
 body {
-    background-color: #eee;
+    background-color: #83e083;
 }
 
-.navBar{
+.eff{
     width: 100%;
     height: 100px;
     background-color: #fff;
 }
-.navBar ul{
+.eff ul{
 
 }
-.navBar ul li{
+.eff ul li{
     list-style: none;
     display: inline-block;
     float: left;
     line-height: 100px;
 }
-.navBar ul li a{
+.eff ul li a{
     display: block;
     text-decoration: none;
     font-size: 18px;
@@ -119,3 +120,43 @@ body {
     color: #1e1e1e;
     padding: 0 25px;
 }
+
+.eff a:hover {
+    background-color: #83e083;
+  }
+  
+h1 {
+    text-align: center;
+    font-family: "Times New Roman", Times, serif;
+    font-size: 45px;
+    font-weight: normal;
+    margin-top: 75px;
+}
+
+.upbottom{
+    margin-bottom: 50px;
+    bottom: 20px;
+    right: 30px; 
+    z-index: 99; 
+    background-color: white;
+    color: white; 
+    cursor: pointer; 
+    border-radius: 10px; 
+    font-size: 18px;
+}
+/* LOGO */
+.logo-image img{
+    margin-top: 15px;
+    margin-left: 10px;
+    width: 76px;
+    float: left;
+    padding-right: 10px;
+ }
+
+ p {
+    
+    margin: 10px 10px 10px 10px;
+    font-size: 30px;
+    text-indent: 5%;
+    text-align:center;
+  }

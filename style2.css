@@ -25,11 +25,12 @@ time, mark, audio, video {
     font-size:100%;
     vertical-align:baseline;
     background:transparent;
+    font-family: 'Quicksand', sans-serif;
 }
 
 body {
     line-height:1;
-    font-family: "palatino linotype", serif;
+    font-family: 'Quicksand', sans-serif;
 }
 article,aside,details,figcaption,figure,
 footer,header,hgroup,menu,nav,section {
@@ -98,27 +99,32 @@ body {
 }
 
 .eff{
-    width: 100%;
-    height: 100px;
-    background-color: #fff;
+  width: 100%;
+  height: 100px;
+  background-color: #fff;
 }
 .eff ul{
 
 }
 .eff ul li{
-    list-style: none;
-    display: inline-block;
-    float: left;
-    line-height: 100px;
+  list-style: none;
+  display: inline-block;
+  float: left;
+  line-height: 100px;
 }
 .eff ul li a{
-    display: block;
-    text-decoration: none;
-    font-size: 18px;
-    font-family: 'Courier New', Courier, monospace;
-    color: #1e1e1e;
-    padding: 0 25px;
+  display: block;
+  text-decoration: none;
+  font-size: 18px;
+  font-family: 'Courier New', Courier, monospace;
+  color: #1e1e1e;
+  padding: 0 25px;
 }
+
+.eff a:hover {
+  background-color: #83e083;
+}
+
 h1 {
     text-align: center;
     font-family: "Times New Roman", Times, serif;
@@ -139,13 +145,89 @@ h1 {
     font-size: 18px;
 }
 
+/* LOGO */
+.logo-image img{
+  margin-top: 15px;
+  margin-left: 10px;
+  width: 76px;
+  float: left;
+  padding-right: 10px;
+}
 
-   .eff a:hover {
+
+.head {
+    width: 100%;
+    height: 50px;
+    background-color:#83e083;
+    margin: 50px 0px 100px;
+}
+.head h1{
+    font-size: 75px;
+    font-weight: 20px;
+    
+}
+
+.vehicles{
+    margin: 50px 0px;
+    display: flex;
+    gap: 10px 30px;
+    flex-flow: wrap;
+    justify-content: space-around;
+  }
+
+  .breaker{
+    height: 100px;
     background-color: #83e083;
   }
- 
 
-  .vehicles{
-    margin: 5px 20px 5px 20px;
-    display: flex;
+  .vehicles :hover {
+    background-color: #83e083;
+  }
+
+  .vehicles h2{
+    font-size: 30px;
+    margin: 50px 50px 10px ;
+  }
+
+  .vehicles p{
+    font-size: 25px;
+    margin: 10px 70px 30px;
+  }
+  .wli{
+    background-color: #fff;
+  }
+  .wli p {
+    margin-right: 100px;
+  }
+
+
+  .ti {
+    text-align: right;
+    background-color: #fff;
+  }
+  .ti h2{
+    margin-right: 90px;
+  }
+  .ti p {
+    margin-left: 150px;
+  }
+
+
+  .inv{
+    background-color: #fff;
+  }
+  .inv p {
+    margin-right: 150px;
+  }
+
+
+  .lfi {
+    text-align: right;
+    background-color: #fff;
+  }
+  .lfi h2{
+    margin-right: 90px;
+  }
+  .lfi p {
+    margin-left: 150px;
   }
