@@ -152,7 +152,10 @@ h1 {
     float: left;
  }
 
-    p {
-        text-indent: 5em;
-        font-size: 18px;
-      }
+ p {
+    text-align: justify;
+    margin: 10px 10px 10px 10px;
+    font-size: 30px;
+    text-indent: 5%;
+    text-align:center;
+  }
