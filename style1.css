@@ -146,12 +146,15 @@ h1 {
 }
 
 /* LOGO */
-.pictureoflogo img{
+.logo-image img{
     margin-top: 15px;
     margin-left: 10px;
     width: 76px;
+    display: block;
     float: left;
- }
+    padding-right: 10px;
+  }
+  
 /* ML */
 .slide-container {
     background-color: #e3e3e3;
